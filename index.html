@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml/" xml:lang="fr" lang="fr">
+    <head>
+        <title>Monokuma</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script type="text/javascript" src="commands.js"></script>
+        <script type="text/javascript" src="annyang.min.js"></script>
+
+    </head>
+    <body>
+
+        <script type="text/javascript">
+            if (annyang) {
+
+
+                //fonction d'initialisation
+                annyang.setLanguage('fr-FR');
+                annyang.addCommands(commands);
+                annyang.start({ autoRestart: true });
+                annyang.debug([newState=true]);
+
+            }
+        
+        
+        
+        </script>
+
+    </body>
+</html>
