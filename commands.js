@@ -1,3 +1,5 @@
+window.alert("Bonjour !");
+
 var commands = {
 
     'salut': function() { alert('Bonjour!'); },
