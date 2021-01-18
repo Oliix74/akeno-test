@@ -1,5 +1,5 @@
 
-window.alert("Hajimemashite !");
+window.alert("Enchanté,\n je suis la vice-présidente Akeno Himejima,\n s'il te plaît fait comme chez toi");
 
 var commands = {
 
