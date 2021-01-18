@@ -1,4 +1,4 @@
-window.alert("Bonjour !");
+window.alert("Hajimemashite");
 
 var commands = {
 
